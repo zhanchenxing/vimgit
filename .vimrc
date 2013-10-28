@@ -31,6 +31,7 @@ call vundle#rc()
 " required! 
 Bundle 'gmarik/vundle'
 Bundle 'klen/python-mode'
+Bundle 'kien/ctrlp.vim'
 
 "" My Bundles here:
 ""
