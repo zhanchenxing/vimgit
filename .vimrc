@@ -32,6 +32,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'klen/python-mode'
 Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/nerdtree'
 
 "" My Bundles here:
 ""
@@ -58,3 +59,6 @@ filetype plugin indent on     " required!
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
+
+" CtrlP options
+let g:ctrlp_cmd = 'CtrlPLastMode'
